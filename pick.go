@@ -1,6 +1,6 @@
 package plectrum
 
-// Returns a copy of the object
+// Returns a map containing only the values mapped by the given keys
 func Pick(m map[string]interface{}, keys []string) map[string]interface{} {
   ret := make(map[string]interface{})
   for _, key := range keys {
